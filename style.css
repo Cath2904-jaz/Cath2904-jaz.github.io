@@ -2,7 +2,7 @@
 
 .navbar {
   padding: 2rem;
-  background-color: #f5f6f7;
+  background-color: #dad4ed;
 }
 
 .navbar-collapse {
@@ -22,16 +22,17 @@ section {
 h1 {
   font-size: 2.5rem;
   font-family: 'Rubik Dirt', cursive;
+  color:#a835dd;
 }
 
 .seccion-oscura {
-  color: white;
-  background-color: #1b1b32;
+  color: #e7e3f1;
+  background-color: #1b0b43;
 }
 
 .seccion-clara {
   color: black;
-  background-color: white;
+  background-color: #dbcff7;
 }
 
 .seccion-titulo {
@@ -41,8 +42,8 @@ h1 {
 }
 
 .seccion-descripcion {
-  font-size: 1.2rem;
-  color: #584e4e;
+  font-size: 1.3rem;
+  color: #534e58;
 }
 
 .seccion-texto {
@@ -52,6 +53,17 @@ h1 {
 .btn-info {
   font-size: 1.1rem;
   margin: 20px;
+  background-color: #a835dd;
+  color: white;
+  border: 2px solid #a835dd;
+}
+
+.btn-info:hover{
+  font-size: 1.1rem;
+  margin: 20px;
+  background-color: #8643ab;
+  color: white;
+  border: 2px solid #8643ab;
 }
 
 .texto-negro {
@@ -65,7 +77,7 @@ h1 {
 /* Seccion Hero */
 
 .hero {
-  background-color: #f5f6f7;
+  background-color: #f1e9fc;
   min-height: 450px;
   text-align: center;
 }
@@ -82,7 +94,7 @@ h1 {
 
 .hero-principal h2 {
   font-size: 1.5rem;
-  color: #615151;
+  color: #67596e;
 }
 
 /* Sobre mi */
@@ -114,14 +126,14 @@ h1 {
 }
 
 .experiencia .columna:hover {
-  color: white;
-  background-color: #1b1b32;
+  color: rgb(223, 208, 244);
+  background-color: #603c73;
 }
 
 .experiencia i {
   font-size: 2.5rem;
-  color: #7ade30;
-  background-color: #0a0a23;
+  color: #a835dd;
+  background-color: #140128;
   padding: 8px 19px;
   border-radius: 50%;
 }
@@ -140,7 +152,9 @@ h1 {
 
 .badge {
   margin: 5px;
+  background-color: #a835dd;
 }
+
 
 /* Proyectos */
 
@@ -195,7 +209,7 @@ h1 {
 }
 
 .overlay i {
-  color: black;
+  color: rgb(105, 8, 232);
   font-size: 60px;
   margin: 10px;
 }
@@ -281,7 +295,7 @@ h1 {
 
 .contacto .rectangulo {
   margin-top: -5rem;
-  background-color: rgb(13, 110, 253);
+  background-color: #a835dd;
   border-radius: 10px;
   box-shadow: 0px 1px 4px 1px white;
 }
@@ -363,7 +377,7 @@ footer {
 
 .iconos-redes-sociales a:hover {
   background-color: white;
-  border: 2px solid rgb(13, 110, 253);
+  border: 2px solid rgb(99, 34, 248);
 }
 
 .iconos-redes-sociales a:hover i {
